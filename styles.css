@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Megrim&family=PT+Sans:wght@400;700&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+/** navigation **/
+.navigation {
+    background-color: #282969;
+    color: white;
+    padding: 0.7rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-family: 'Megrim', cursive;
+    font-size: 2rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    background-color: white;
+    color: #282969;
+}
+
+/** lists **/
+
+.list-non-bullet {
+    list-style: none;
+    padding: 0rem;
+    margin-block-end: 0rem;
+    margin-block-start: 1em;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+    font-size: 1.2rem;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.3rem
+}
+
+.bottom-image {
+      /* The image used */
+  background-image: url("images/hypo.svg");
+  /* Full height */
+ 
+  /* Center and scale the image nicely */
+  background-position: right;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size:contain;
+  height:84%;
+  overflow:scroll;
+}
+
+.container {
+    text-align: center;
+    background-color: #F5BC49;
+    padding: 1rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container {
+    background-color: #FDE68A;
+    padding: 1rem;
+    width: 70%;
+    margin-top: 0.5rem;
+}
+
+.angle-input, .side-input , .bnh-input{
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+
+}
+
+#check-btn , #hypotenuse-btn ,#clear-btn {
+    margin-top: 1rem ;
+    background-color: #94db5c;
+    border: #C83192;
+    padding: 0.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#check-btn:hover , #hypotenuse-btn:hover , #clear-btn:hover {
+    border: #282969;
+    background-color: #C83192;
+    color: #f1f1f1;
+}
+
+.page-name {
+    margin: 0.2rem;
+    background-color: #06c4ac;
+    padding: 0.2rem;
+}
+
+.angle-label, .side-label , .bnh-label{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+#output {
+    background-color: white;
+    margin: 1rem 1rem 0rem 1rem;
+    padding: 0.3rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.options {
+    padding: 1rem 0.5rem;
+    font-size: 1.2rem;
+}
+
+.question-container {
+    background-color: #FDE68A;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* .button-container {
+    background-color: #FDE68A;
+} */
+
+.question {
+    font-size: 1.2rem;
+}
+
+.options-mcq {
+    font-size: 1.2rem;
+}
