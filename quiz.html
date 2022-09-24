@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles.css" rel="stylesheet">
+    <title>Triangle Quiz</title>
+</head>
+<body>
+    <nav class="navigation nav-container">
+        <div class="nav-brand">Triangle Quiz</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/isTriangle.html">Is Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/triangle-area.html">Area</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/perimeter.html">Perimeter</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link  link-active" href="/quiz.html">Quiz</a>
+            </li>
+        </ul>
+    </nav>
+   
+    <div class="bottom-image">
+        <div class="container">
+            <h1 class="page-name">Triangle Quiz</h1>
+            <form class="quiz-form">
+                <div class="question-container">
+                    <p class="question">What is the third angle for the Triangle where angle1 = 45 and angle2 = 45 ?</p>
+                    <div class="options-mcq">
+                    <label><input type="radio" name="question1" value="90">90°</label>
+                    <label><input type="radio" name="question1" value="60">60°</label>
+                    <label><input type="radio" name="question1" value="30">30°</label>
+                    </div>
+                </div>
+                <div class="question-container">
+                    <p class="question">If a triangle has an angle of 90° what is it called ?</p>
+                    <div class="options-mcq">
+                    <label><input type="radio" name="question2" value="acute">Acute Triangle</label>
+                    <label><input type="radio" name="question2" value="obtuse">Obtuse Triangle</label>
+                    <label><input type="radio" name="question2" value="right angled">Right angled Triangle</label>
+                    </div>
+                </div>
+                <div class="question-container">
+                    <p class="question">The sum of the length of sides of a triangle is known as its?</p>
+                    <div class="options-mcq">
+                    <label><input type="radio" name="question3" value="area">Area</label>
+                    <label><input type="radio" name="question3" value="perimeter">Perimeter</label>
+                    <label><input type="radio" name="question3" value="region">Region</label>
+                    </div>
+                </div>
+                <div class="question-container">
+                    <p class="question">How many vertices does a triangle have?</p>
+                    <div class="options-mcq">
+                    <label><input type="radio" name="question4" value="5">5</label>
+                    <label><input type="radio" name="question4" value="4">4</label>
+                    <label><input type="radio" name="question4" value="3">3</label>
+                    </div>
+                </div>
+                <div class="question-container">
+                    <p class="question">The total measure of the three angles of a triangle is?</p>
+                    <div class="options-mcq">
+                    <label><input type="radio" name="question5" value="360">360°</label>
+                    <label><input type="radio" name="question5" value="180">180°</label>
+                    <label><input type="radio" name="question5" value="90">90°</label>
+                    </div>
+                </div>
+                <div class="question-container">
+                    <p class="question">A triangle whose no two sides are equal is known as?</p>
+                    <div class="options-mcq">
+                    <label><input type="radio" name="question6" value="acutet">Acute Triangle</label>
+                    <label><input type="radio" name="question6" value="scalenet">Scalene Triangle</label>
+                    <label><input type="radio" name="question6" value="isoceles">Isoceles Triangle</label>
+                    </div>
+                </div>
+            </form>
+            <div class="button-container">
+                <button id="check-btn">Submit Answers</button>
+                <button id="clear-btn">
+                    <a style="text-decoration: none; color:black;" href="./quiz.html">Clear</a>
+                </button>
+            </div>
+            <div id="output"></div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
