@@ -28,7 +28,7 @@ inputOptions.forEach((elem) => {
     });
 });
 
-function calculateSumOfAngles(angle1 , angle2 , angle3){
+function calculateSumOfAngles(angle1 , angle2 , angle3) {
 
     if(angle1 > 0 && angle2 > 0 && angle3 > 0)
         return angle1+angle2+angle3;
@@ -60,7 +60,6 @@ function isTriangleBySides() {
     var a = Number(sideInputs[0].value);
     var b = Number(sideInputs[1].value);
     var c = Number(sideInputs[2].value);
-    console.log (a , b, c);
     if(a > 0 && b > 0 && c > 0) {
         if((a+b)>c && (b+c)>a && (a+c)>b){
             output.style.display = 'block';
@@ -80,7 +79,6 @@ function isTriangleBySides() {
 }
 
 function isTriangle(){
-    console.log(flag)
     if (flag === false){
         isTriangleByAngles();
     }
