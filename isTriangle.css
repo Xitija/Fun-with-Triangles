@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Megrim&family=PT+Sans:wght@400;700&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+/** navigation **/
+.navigation {
+    background-color: #282969;
+    color: white;
+    padding: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-family: 'Megrim', cursive;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/** lists **/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem
+}
+
+/* .bottom-image {
+      /* The image used */
+  /* background-image: url("images/ist.svg"); */
+  /* Full height */
+ 
+  /* Center and scale the image nicely */
+  /* background-position: right bottom;
+  background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-size:contain;
+  height:70%;
+  bottom: 0px; */
+/* } */ 
+
+.bottom-image {
+    /* The image used */
+background-image: url("images/hypo.svg");
+/* Full height */
+
+/* Center and scale the image nicely */
+background-position: right;
+background-repeat: no-repeat;
+/* background-size: cover; */
+background-size:contain;
+height:85%;
+}
